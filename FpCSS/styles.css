@@ -1,0 +1,165 @@
+/*
+-> Writing CSS styles, including selectors with declarations.
+-> Using common properties related to color, size, font, text alignment, and background.
+-> Working with a given element's box model by modifying their width/height, border, padding, and margin.
+-> Laying out elements on the page according to how they're displayed and positioned.
+*/
+
+header {
+    margin: 50px;
+}
+
+body {
+    background-color: #C2D3CD;
+}
+
+#container-about, #container-projects, #container-contacts {
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px dotted #E6E6E6;
+    border-radius: 20px;
+}
+
+.projects:hover, #container-about:hover, #container-contacts:hover {
+    border-color: #AFBFC0;
+    background-color: #EFF0F1;
+}
+
+
+#nav-bar {
+    text-align: center;
+    padding: 10pX;
+    margin: 100px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: #AFBFC0;
+}
+
+#nav-bar a:hover {
+    color: #2D3E3F;
+    background-color: #B0C4C6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #56494C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #56494C;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #56494C;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    background-color: #E6E6E6;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+}
+
+#about {
+    /*list-style: none;*/
+    border: 2px #AFBFC0;
+    padding: 10px;
+    width: 80px;
+    color: #AFBFC0;
+    background-color: #E6E6E6;
+    gap: 10px;
+}
+
+#projects {
+    /*list-style: none;*/
+    border: 2px solid #AFBFC0;
+    padding: 10px;
+    width: 80px;
+    color: #AFBFC0;
+    background-color: #E6E6E6;
+
+}
+
+#contacts {
+    /*list-style: none;*/
+    border: 2px solid #AFBFC0;
+    padding: 10px;
+    width: 80px;
+    color: #AFBFC0;
+    background-color: #E6E6E6;
+}
+
+
+#container-about {
+    border: 2px dotted #E6E6E6;
+    border-radius: 50px;
+    width: 65%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+#container-projects {
+    border: 2px dotted #E6E6E6;
+    list-style: none;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+#container-image {
+    border: 2px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 44%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+#container-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: flex;
+}
+
+#container-contacts {
+    border: 2px dotted #E6E6E6;
+    border-radius: 50px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}

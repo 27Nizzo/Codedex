@@ -1,0 +1,118 @@
+
+div{
+    font: 16px/1.5 sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline overline wavy blue;
+    color: skyblue
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline wavy blue;
+    color: skyblue
+}
+
+h3 {
+    color: rgb(87, 172, 205)
+}
+
+p {
+    color: rgb(192, 192, 192);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+body{
+    background-image: url("https://t2.genius.com/unsafe/1213x0/https%3A%2F%2Fimages.genius.com%2F106329194c05422aa4c8ddafc79a34a1.1000x1000x1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font: 16px/1.5 sans-serif;
+
+}
+
+.intro-container{
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border: dotted 3px rgb(162, 162, 175);
+}
+
+.carreiraEascensao {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border: dotted 3px rgb(162, 162, 175);
+}
+
+.legadoInfluencia {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border: dotted 3px rgb(162, 162, 175);
+}
+
+.discografia {
+    margin: 20px;
+    padding: 5px;
+    border: dotted 3px rgb(162, 162, 175);
+}
+
+figure {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: skyblue;
+}
+
+img {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.test-details {
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+    
+    
+}
+
+.color {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline wavy dotted;
+}
+
+.createdBy {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+a {
+    color: skyblue
+}
+
+a:hover {
+    color: white;
+    background-color: skyblue;
+    font-size: 18px;
+}
