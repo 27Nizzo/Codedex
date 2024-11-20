@@ -1,0 +1,177 @@
+body {
+    background-image: url("images/back-groundImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 70px;
+    border: 2px solid black;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 1px 1px 20px black
+}
+
+.selector {
+    margin-top: 50px;
+    color: #0A2F44;
+}
+
+.selector:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.selector2 {
+    width: 200px;
+    height: 50px;
+    margin-top: 36px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0A2F44;
+    background-color: #8CDCBE;
+    border: 2px solid black;
+    margin-left: 50%;
+
+}
+
+main {
+    margin-top: 200px;
+}
+
+.home {
+    margin-bottom: 50px;
+}
+
+.conjunto-Imagens {
+    display: flex; /* Garante alinhamento horizontal */
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens */
+}
+
+.conjunto-Imagens figure {
+    margin: 0; /* Remove margens padrão do <figure> */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conjunto-Imagens img {
+    width: 600px; /* Define a largura da imagem */
+    height: 400px; /* Mantém proporção da imagem */
+    border: 2px solid #0A2F44; /* Adiciona uma borda para visualização */
+    border-radius: 10px; /* Canto arredondado */
+}
+
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: larger;
+    color: white;
+}
+
+
+.services-title {
+    margin: 50px 0 50px 0;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.blog-title {
+    margin: 50px 0 50px 0;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.contact-title {
+    margin: 50px 0 50px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-self: center;
+    gap: 900px
+}
+
+.customer-support {
+    border: 2px solid #0A2F44;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.t1 {
+    margin-left: 60px;
+}
+
+#t1-p {
+    margin-left: 20px;
+}
+
+#t2-p {
+    margin-left: 20px;
+}
+
+.t2 {
+    margin-left: 90px;
+}
+
+.help-center {
+    border: 2px solid #0A2F44;
+    border-radius: 20px;
+    width: 300px;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+button {
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: #8CDCBE;
+    cursor: pointer;
+}
+
+#t2-button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+footer {
+    margin-top: 90px;
+    text-align: center;
+    color: #8CDCBE;
+}
+
+.figma-link:hover{
+    background-color: skyblue;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 48%;
+}
