@@ -168,7 +168,15 @@ footer {
     color: #8CDCBE;
 }
 
-.figma-link:hover{
+.figma-link1:hover{
+    background-color: skyblue;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 48%;
+}
+
+.figma-link2:hover{
     background-color: skyblue;
     font-size: 18px;
     border-radius: 10px;
